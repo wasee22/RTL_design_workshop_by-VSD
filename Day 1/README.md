@@ -62,7 +62,7 @@ gtkwave tb_good_mux.vcd
 - Zoom, scroll, and add signals to waveform viewer
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/1WoVSrNj6F2oxewwAC3pgCeMwdkokMk-7/view?usp=drive_link" alt="GTKWave Example" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%201/gtkwave_good_mux.png" alt="GTKWave Example" width="70%">
 </div>
 
 
