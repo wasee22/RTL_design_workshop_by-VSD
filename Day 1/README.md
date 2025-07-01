@@ -149,7 +149,7 @@ write_verilog good_mux_mapped.v
 show
 ```
 <div align="center">
-  <img src="https://drive.google.com/file/d/1ylEbaGKy0Tauk5IvQJ_8xKWlGmkqo44n/view?usp=drive_link" alt="GTKWave Example" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%201/yosys_good_mux.png" alt="GTKWave Example" width="70%">
 </div>
 ---
 
