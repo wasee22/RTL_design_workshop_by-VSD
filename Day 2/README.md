@@ -58,7 +58,9 @@ hierarchy -check -top top_module
 ```
 
 ### L5: Hierarchical Synthesis Part 2
-
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/hierarchical.png" alt=" Hierarchical Synthesis" width="70%">
+</div>
 This continues the exploration of how synthesis tools interpret and maintain the hierarchical structure across modules. This method is useful for modular debugging and supports incremental design changes.
 
 ### L6: Flattened Synthesis
@@ -70,7 +72,9 @@ flatten top_module
 ```
 
 Flattening results in a single-level gate netlist that can improve synthesis optimizations across the entire design.
-
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/flatten.png" alt=" Flatten Synthesis" width="70%">
+</div>
 ---
 
 ## 3. Flop Coding Styles and Optimization
@@ -138,17 +142,29 @@ All three flip-flop designs are simulated using Icarus Verilog and waveform view
 iverilog dff_asyncres.v tb_dff_asyncres.v
 ./a.out
 gtkwave tb_dff_asyncres.vcd
+```
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/gtkwave_dff_asyncres.png" alt=" dff_asyncres" width="70%">
+</div>
 
+```bash
 iverilog dff_asyncset.v tb_dff_asyncset.v
 ./a.out
 gtkwave tb_dff_async_set.vcd
+```
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/gtkwave_dff_async_set.png" alt=" dff_async_set" width="70%">
+</div>
 
+```bash
 iverilog dff_syncres.v tb_dff_syncres.v
 ./a.out
 gtkwave tb_dff_syncres.vcd
 ```
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/gtkwave_dff_syncres.png" alt=" dff_syncres" width="70%">
+</div>
 
-(Screenshots of the waveforms will be linked using GitHub URLs.)
 
 ### L10: Flop Synthesis Simulation Part 2
 
@@ -196,7 +212,17 @@ abc -liberty /home/vsduser/VLSI/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_f
 show
 ```
 
-(Respective screenshots of each flip-flop's gate-level view will be added as GitHub image links.)
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/yosys_dff_asyncres.png" alt=" dff_asyncres" width="70%">
+</div>
+
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/yosys_dff_async_set.png" alt=" dff_async_set" width="70%">
+</div>
+
+<div align="center">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%202/yosys_dff_syncres.png" alt=" dff_syncres" width="70%">
+</div>
 
 ---
 
