@@ -1,6 +1,6 @@
 # Day 2: Timing Libraries, Synthesis Approaches, and Efficient Flip-Flop Coding
 
-I've continued this course to expand my knowledge of RTL design using open-source tools. This README summarizes what I learned during **Day 2** of the 5-day RTL workshop. Today’s focus was on timing libraries, hierarchical vs. flat synthesis approaches, and efficient flip-flop coding styles.
+I've continued this course to expand my knowledge of RTL design using open-source tools. This README summarizes what I learned during **Day 2** of the 5-day RTL workshop. Today’s focus was on timing libraries, hierarchical vs flat synthesis approaches, and efficient flip-flop coding styles.
 
 ---
 
