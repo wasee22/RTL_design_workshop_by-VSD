@@ -72,7 +72,7 @@ module ternary_operator_mux (input i0, input i1, input sel, output y);
 endmodule
 ```
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%204/lab1.png" width="70%">
 </div>
 A simple 2:1 multiplexer implemented using the ternary operator.
 
@@ -80,7 +80,7 @@ A simple 2:1 multiplexer implemented using the ternary operator.
 
 Used Yosys to convert the above mux into a gate-level netlist.
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%204/lab2.png" width="70%">
 </div>
 
 ### Lab 3: GLS for the MUX
@@ -91,7 +91,7 @@ Performed gate-level simulation using the netlist and primitive libraries.
 iverilog primitives.v sky130_fd_sc_hd.v mux.v tb.v
 ```
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%204/lab3.png" width="70%">
 </div>
 
 ### Lab 4: Incorrect MUX Example
@@ -120,14 +120,14 @@ always @ (*) begin
 end
 ```
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%204/lab4.png" width="70%">
 </div>
 
 ### Lab 5: GLS of Faulty MUX
 
 Simulated the faulty mux to observe incorrect behavior.
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%204/lab5.png" width="70%">
 </div>
 
 ### Lab 6: Blocking Assignment Pitfall
@@ -153,14 +153,14 @@ always @ (*) begin
 end
 ```
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%204/lab6.png" width="70%">
 </div>
 
 ### Lab 7: Synthesizing the Fixed Version
 
 Ran synthesis again on the corrected design to confirm expected logic structure.
 <div align="center">
-  <img src="" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%204/lab7.png" width="70%">
 </div>
 ---
 
