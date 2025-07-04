@@ -98,7 +98,7 @@ opt_clean -purge
 
 which helps remove redundant logic and simplify the final gate-level netlist.
 <div align="center">
-  <img src="https://drive.google.com/file/d/1WoVSrNj6F2oxewwAC3pgCeMwdkokMk-7/view?usp=drive_link" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%203/opt.png" width="70%">
 </div>
 
 
@@ -121,7 +121,7 @@ endmodule
   - `y = b` if `a` is false.
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/1WoVSrNj6F2oxewwAC3pgCeMwdkokMk-7/view?usp=drive_link" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%203/op2.png" width="70%">
 </div>
 
 ---
@@ -140,7 +140,7 @@ endmodule
 2-to-1 multiplexer; `y = a ? 1 : b` (outputs `1` when `a` is true, otherwise `b`).
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/1WoVSrNj6F2oxewwAC3pgCeMwdkokMk-7/view?usp=drive_link" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%203/opt3.png" width="70%">
 </div>
 
 ---
@@ -165,7 +165,7 @@ endmodule
   `y = a ? c : !c`
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/1WoVSrNj6F2oxewwAC3pgCeMwdkokMk-7/view?usp=drive_link" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%203/opt4.png" width="70%">
 </div>
 
 ---
@@ -194,7 +194,7 @@ endmodule
 
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/1WoVSrNj6F2oxewwAC3pgCeMwdkokMk-7/view?usp=drive_link" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%203/dff_const1.png" width="70%">
 </div>
 ---
 
@@ -219,7 +219,7 @@ endmodule
 - D flip-flop always sets output `q` to `1` (regardless of reset or clock).
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/1WoVSrNj6F2oxewwAC3pgCeMwdkokMk-7/view?usp=drive_link" width="70%">
+  <img src="https://github.com/wasee22/RTL_design_workshop_by-VSD/blob/main/Day%203/dff_const2.png" width="70%">
 </div>
 
 ---
