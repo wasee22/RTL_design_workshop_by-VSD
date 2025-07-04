@@ -16,7 +16,7 @@ I've started this course to strengthen my understanding of digital design using 
 
 ## 1. Introduction to open-source simulator iverilog
 
-### L1: Introduction to iverilog, design, and testbench
+### L1: Introduction to iverilog, design, and testbench.
 
 - A **simulator** like `iverilog` helps us verify digital logic designs by simulating their behavior.
 - **Design** is the actual Verilog module describing functionality.
