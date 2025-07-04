@@ -30,9 +30,9 @@ GLS is performed after synthesis to ensure that the netlist functions exactly as
 
 Behavioral simulation (based on RTL) and synthesized netlist simulation can yield different results if care isn't taken. These mismatches often arise from:
 
-- Use of delays or initial blocks (which are ignored during synthesis)
-- Missing sensitivity list items
-- Misuse of blocking assignments in sequential logic
+- Use of delays or initial blocks (which are ignored during synthesis).
+- Missing sensitivity list items.
+- Misuse of blocking assignments in sequential logic.
 
 Clean, synthesizable, and deterministic RTL helps ensure consistent behavior.
 
