@@ -112,7 +112,7 @@ write_verilog good_mux_synth.v
 #### Read Sky130 Liberty file:
 
 ```tcl
-read_liberty -lib /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib /home/vsduser/VLSI/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
 #### Read Verilog:
@@ -132,7 +132,7 @@ synth -top good_mux
 #### Map to technology library:
 
 ```tcl
-abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/vsduser/VLSI/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
 #### Write synthesized netlist:
