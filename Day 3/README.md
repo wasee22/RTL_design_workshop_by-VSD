@@ -24,9 +24,9 @@ The tool analyzes the code to detect constant-valued expressions or conditions. 
 
 **Benefits:**
 
-- Simpler logic, fewer gates
-- Improved performance due to shorter critical paths
-- Reduced power consumption
+- Simpler logic, fewer gates.
+- Improved performance due to shorter critical paths.
+- Reduced power consumption.
 
 
 
